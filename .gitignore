@@ -1,0 +1,32 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/.next-validation/
+/out/
+
+# production
+/build
+
+# local durable demo data
+/.data/
+
+# Third-party reports are supplied locally, never committed to the repository.
+/data/reports/*
+!/data/reports/README.md
+
+# local environment
+.env*
+!.env.example
+
+# logs and system files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts

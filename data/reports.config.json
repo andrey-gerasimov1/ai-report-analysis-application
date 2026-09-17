@@ -1,0 +1,55 @@
+{
+  "defaults": {
+    "allowedUsers": ["alex"],
+    "geography": "Custom",
+    "category": "Imported report",
+    "description": "A locally imported report available to the research assistant."
+  },
+  "reports": {
+    "sample-grid-storage.html": {
+      "id": "report-storage",
+      "code": "DEMO-STORAGE-01",
+      "title": "North American Grid Storage Market Outlook",
+      "shortTitle": "Grid Storage Outlook",
+      "published": "2024",
+      "geography": "North America",
+      "category": "Energy storage",
+      "description": "Illustrative market size, forecast, growth drivers, and competitive landscape for grid storage systems.",
+      "priceCents": 19900,
+      "color": "teal",
+      "allowedUsers": ["alex", "jordan"],
+      "keywords": [
+        "grid storage",
+        "energy storage",
+        "battery",
+        "renewable energy",
+        "grid resilience",
+        "capacity",
+        "heliogrid",
+        "moss energy"
+      ]
+    },
+    "sample-warehouse-robotics.html": {
+      "id": "report-robotics",
+      "code": "DEMO-ROBOTICS-02",
+      "title": "Global Warehouse Robotics Market Outlook",
+      "shortTitle": "Warehouse Robotics Outlook",
+      "published": "2024",
+      "geography": "Global",
+      "category": "Warehouse automation",
+      "description": "Illustrative market size, automation segments, regional outlook, and competitor analysis.",
+      "priceCents": 24900,
+      "color": "coral",
+      "allowedUsers": ["alex", "taylor"],
+      "keywords": [
+        "warehouse robotics",
+        "warehouse automation",
+        "robotics",
+        "mobile robots",
+        "fulfillment",
+        "orion robotics",
+        "vela automation"
+      ]
+    }
+  }
+}
